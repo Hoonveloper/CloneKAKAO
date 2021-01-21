@@ -1,0 +1,48 @@
+
+.friends_section .friends_section_header{
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  padding:10px 15px;
+  font-size: 12px;
+  color: #b4b4b4;
+  margin: 1px;
+}
+
+.friends_section_rows .friends_section_row{
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  font-size:14px;
+
+}
+.friends__section_row.with-tagline {
+  justify-content: space-between;
+}
+
+.friends_section_row img{
+  width:40px;
+  padding: 10 10 10 10px;
+  border-radius: 50%;
+  margin-right: 15px;
+  animation: 1s rotateFriend infinite ease-in-out;
+}
+
+@keyframes rotateFriend{
+0%{
+  transform: rotateY(0deg);
+ 
+}
+50%{
+  transform: rotateY(180deg) scale(0.5) ;
+  
+}
+100%{
+  transform: rotateY(360deg);
+  
+}
+}
+
+.friends_section_row a{
+  text-decoration: none;
+  color:inherit;
+}

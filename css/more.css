@@ -1,0 +1,99 @@
+.more_header{
+  display:flex;
+  justify-content: space-between;
+  border-bottom: 10px solid #efefef;
+  padding:15px 15px;
+  align-items: center;
+}
+.more_options{
+  padding: 20px 10px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  border-bottom: 10px solid #efefef;
+}
+.more_options .more_option{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.more_header_column:first-child{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:0px 10px 10px 0px;
+  text-align: center;
+  
+  
+}
+.more_header_column:first-child .more_header_title{
+  padding:5px 2.5px;
+  font:bold;
+  font-weight: bold;
+  font-size:18px;
+  
+}
+.more_header_column:first-child .more_header_subtitle{
+  color:#b4b4b4;
+  font-size:12px;
+  padding:2.5px 5px;
+}
+
+.more_header_info{
+  display:flex;
+  flex-direction: column;
+}
+.more_header_column img{
+  width:50px;
+  border-radius: 50%;
+  margin-right:15px;
+  
+}
+
+.more_plus_friends{
+  padding: 10px 10px 10px 10px;
+}
+
+.more_plus_friends .plus_friends_header{
+  display:flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+
+.plus_friends_items{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 10px solid #efefef;
+}
+.plus_friends_items .plus_friends_item{
+  width:50%;
+  margin-bottom: 30px;
+
+}
+.plus_friends_items .plus_friends_item span{
+  font-size:8px;
+  padding-left:8px;
+}
+.more_links{
+  display: flex;
+  padding:10px 20px 10px 20px;
+  
+
+}
+.more_links .more_option{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-right:20px;
+}
+.more_links .more_option span{
+  font-size: 10px;
+  
+}
+.more_links .more_option img{
+  width:45px;
+  margin-bottom:7px;
+}
+
