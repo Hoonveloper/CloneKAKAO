@@ -10,4 +10,4 @@ HTML,CSS를 군대에서 이론으로만 배우고 막상 하려니 쉽지 않�
 
 결과물입니다!
 
-![ezgif-2-b588bb956887](C:\Users\김지훈\Desktop\CloneKAKAO\ezgif-2-b588bb956887.gif)
+![ezgif-2-b588bb956887](https://user-images.githubusercontent.com/77804950/105973027-976e0a00-60cf-11eb-8105-4d93df25feed.gif)
